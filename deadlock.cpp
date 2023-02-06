@@ -36,8 +36,6 @@ void child2()
 
 int main()
 {
-    std::thread* t[2];
-
     std::thread t1(child1);
     std::thread t2(child2);
 
